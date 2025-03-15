@@ -1,0 +1,233 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding-top: 20px; /* Move the navbar down slightly */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF0000; /* Bright Red background */
+  height: 60px;
+  position: relative;
+  color: white;
+}
+
+/* Flex container for the stars and the logo */
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Placeholder for the NFL logo in the center of the navbar */
+.nfl-logo-placeholder {
+  width: 80px; /* Width of the logo placeholder */
+  height: auto; /* Height of the logo placeholder */
+  background-color: #002C5F; /* Blue color for the logo placeholder */
+  border-radius: 8px; /* Rounded corners */
+  margin-left: 20px; /* Space between the logo and the stars */
+  margin-right: 20px; /* Space between the logo and the stars */
+}
+
+/* Star styles */
+.star {
+  font-size: 30px; /* Larger stars */
+  color: white; /* White color for the stars */
+  margin: 0 15px; /* Increased space between stars */
+}
+
+/* Adjust responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .star {
+    font-size: 26px; /* Slightly smaller stars on smaller screens */
+    margin: 0 12px; /* Adjusted spacing for smaller screens */
+  }
+
+  .nfl-logo-placeholder {
+    width: 40px; /* Adjust placeholder size on smaller screens */
+    height: 40px;
+  }
+}
+
+/* Parent container for AFC and NFC divisions */
+.divisions-container {
+  display: flex;
+  justify-content: space-between; /* Keeps AFC on the left, NFC on the right */
+  align-items: flex-start; /* Aligns the top of both sections */
+  margin: 40px;
+}
+
+/* AFC and NFC column styling */
+.afc-divisions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 48%;
+  justify-content: flex-start; /* Keeps AFC teams on the left side */
+}
+
+.nfc-divisions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 48%;
+  align-items: flex-end; /* Moves NFC teams all the way to the right */
+}
+
+/* Division Headers */
+.afc-division h2, .nfc-division h2 {
+  font-size: 24px;
+  color: #002C5F;
+  margin-bottom: 15px;
+}
+
+/* Team block styling */
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  width: 250px; /* Ensures all background colors stop at the longest team name */
+}
+
+/* Align NFC teams to the right */
+.nfc-division .team {
+  flex-direction: row-reverse; /* Flip order: logo on right, text on left */
+  text-align: right; /* Align text to the right */
+}
+
+.nfc-division .team img {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+/* Team Logos */
+.team img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* AFC East Team Background Colors */
+.team.bills { background-color: #00338D; } /* Buffalo Bills */
+.team.dolphins { background-color: #008E97; } /* Miami Dolphins */
+.team.patriots { background-color: #002244; } /* New England Patriots */
+.team.jets { background-color: #125740; } /* New York Jets */
+
+/* AFC North Team Background Colors */
+.team.ravens { background-color: #24135F; } /* Baltimore Ravens */
+.team.bengals { background-color: #FB4F14; } /* Cincinnati Bengals */
+.team.browns { background-color: #311D00; } /* Cleveland Browns */
+.team.steelers { background-color: #FFB612; } /* Pittsburgh Steelers */
+
+/* NFC East Team Background Colors */
+.team.cowboys { background-color: #041E42; } /* Dallas Cowboys */
+.team.giants { background-color: #0B2265; } /* New York Giants */
+.team.eagles { background-color: #004C54; } /* Philadelphia Eagles */
+.team.commanders { background-color: #5A1414; } /* Washington Commanders */
+
+/* NFC North Team Background Colors */
+.team.bears { background-color: #C83803; } /* Chicago Bears */
+.team.lions { background-color: #0076B6; } /* Detroit Lions */
+.team.packers { background-color: #203731; } /* Green Bay Packers */
+.team.vikings { background-color: #4F2683; } /* Minnesota Vikings */
+
+/* Parent container for AFC and NFC divisions */
+.divisions-container {
+  display: flex;
+  justify-content: space-between; /* AFC on the left, NFC on the right */
+  align-items: flex-start; /* Aligns the top of both sections */
+  margin: 40px;
+}
+
+/* AFC and NFC column styling */
+.afc-divisions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 48%;
+  justify-content: flex-start;
+}
+
+.nfc-divisions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 48%;
+  align-items: flex-end; /* Moves NFC teams all the way to the right */
+}
+
+/* Division Headers */
+.afc-division h2, .nfc-division h2 {
+  font-size: 24px;
+  color: #002C5F;
+  margin-bottom: 15px;
+}
+
+/* Team block styling */
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  width: 250px; /* Ensures all background colors stop at the longest team name */
+}
+
+/* Align NFC teams to the right */
+.nfc-division .team {
+  flex-direction: row-reverse; /* Flip order: logo on right, text on left */
+  text-align: right;
+}
+
+.nfc-division .team img {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+/* Team Logos */
+.team img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* AFC South Team Background Colors */
+.team.texans { background-color: #A71930; } /* Houston Texans */
+.team.colts { background-color: #002C5F; } /* Indianapolis Colts */
+.team.jaguars { background-color: #006778; } /* Jacksonville Jaguars */
+.team.titans { background-color: #4B92DB; } /* Tennessee Titans */
+
+/* AFC West Team Background Colors */
+.team.broncos { background-color: #FB4F14; } /* Denver Broncos */
+.team.chiefs { background-color: #E31837; } /* Kansas City Chiefs */
+.team.raiders { background-color: #000000; } /* Las Vegas Raiders */
+.team.chargers { background-color: #0080C6; } /* Los Angeles Chargers */
+
+/* NFC South Team Background Colors */
+.team.falcons { background-color: #A71930; } /* Atlanta Falcons */
+.team.panthers { background-color: #0085CA; } /* Carolina Panthers */
+.team.saints { background-color: #D3BC8D; } /* New Orleans Saints */
+.team.buccaneers { background-color: #D50A0A; } /* Tampa Bay Buccaneers */
+
+/* NFC West Team Background Colors */
+.team.cardinals { background-color: #97233F; } /* Arizona Cardinals */
+.team.rams { background-color: #003594; } /* Los Angeles Rams */
+.team.49ers { background-color: #D4AF37; } /* San Francisco 49ers (Updated to Red) */
+.team.seahawks { background-color: #69BE28; } /* Seattle Seahawks */
+

@@ -1,0 +1,2076 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D50A0A; /* Buffalo Bills Royal Blue */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* White text color for contrast */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.player-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #00338D; /* Bills Blue for player's name */
+}
+
+.position, .jersey-number, .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #00338D; /* Bills Blue for heading */
+}
+
+.stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stats li {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* New England Patriots Styles */
+.patriots-container {
+    background-color: #002244; /* New England Patriots Navy Blue */
+    padding: 20px;
+}
+
+.patriots-container .player-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* New England Patriots Player Name */
+.patriots-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #002244; /* Navy Blue for player's name */
+}
+
+/* New England Patriots Stats Heading */
+.patriots-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #D50A0A; /* Patriots Red for heading */
+}
+
+/* New England Patriots Player Info */
+.patriots-container .position,
+.patriots-container .jersey-number,
+.patriots-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* New England Patriots Stats List */
+.patriots-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.patriots-container .stats li {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* New England Patriots Player Photo */
+.patriots-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D50A0A; /* Red background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* New York Jets Styles */
+.jets-container {
+    background-color: #1D5631; /* New York Jets Green */
+    padding: 20px;
+}
+
+.jets-container .player-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* New York Jets Player Name */
+.jets-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #1D5631; /* Jets Green for player's name */
+}
+
+/* New York Jets Stats Heading */
+.jets-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #1D5631; /* Jets Green for heading */
+}
+
+/* New York Jets Player Info */
+.jets-container .position,
+.jets-container .jersey-number,
+.jets-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* New York Jets Stats List */
+.jets-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.jets-container .stats li {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* New York Jets Player Photo */
+.jets-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D50A0A; /* Red background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Baltimore Ravens Styles */
+.ravens-container {
+    background-color: #241773; /* Ravens Purple */
+    padding: 20px;
+}
+
+.ravens-container .player-card {
+    background-color: #000000; /* Black background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.ravens-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #FFD700; /* Gold color for player's name */
+}
+
+/* Stats Heading */
+.ravens-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #FFD700; /* Gold color for heading */
+}
+
+/* Player Info */
+.ravens-container .position,
+.ravens-container .jersey-number,
+.ravens-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #ccc; /* Light grey text */
+}
+
+/* Stats List */
+.ravens-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ravens-container .stats li {
+    font-size: 1.1rem;
+    color: #ccc; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.ravens-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Bengals Black background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Cincinnati Bengals Styles */
+.bengals-container {
+    background-color: #FB4C00; /* Bengals Orange */
+    padding: 20px;
+}
+
+.bengals-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.bengals-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #000000; /* Bengals Black for player's name */
+}
+
+/* Stats Heading */
+.bengals-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000000; /* Bengals Black for heading */
+}
+
+/* Player Info */
+.bengals-container .position,
+.bengals-container .jersey-number,
+.bengals-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.bengals-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bengals-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.bengals-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #432616; /* Browns Dark Brown background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Cleveland Browns Styles */
+.browns-container {
+    background-color: #FF3C00; /* Browns Orange */
+    padding: 20px;
+}
+
+.browns-container .player-card {
+    background-color: #FFFFFF; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.browns-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #432616; /* Browns Dark Brown for player's name */
+}
+
+/* Stats Heading */
+.browns-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #432616; /* Browns Dark Brown for heading */
+}
+
+/* Player Info */
+.browns-container .position,
+.browns-container .jersey-number,
+.browns-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.browns-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.browns-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.browns-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Steelers Black background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Pittsburgh Steelers Styles */
+.steelers-container {
+    background-color: #FFB81C; /* Steelers Gold */
+    padding: 20px;
+}
+
+.steelers-container .player-card {
+    background-color: #FFFFFF; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.steelers-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #000000; /* Steelers Black for player's name */
+}
+
+/* Stats Heading */
+.steelers-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000000; /* Steelers Black for heading */
+}
+
+/* Player Info */
+.steelers-container .position,
+.steelers-container .jersey-number,
+.steelers-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.steelers-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.steelers-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.steelers-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #03202F; /* Texans Navy Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Houston Texans Styles */
+.texans-container {
+    background-color: #C8102E; /* Texans Red */
+    padding: 20px;
+}
+
+.texans-container .player-card {
+    background-color: #FFFFFF; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.texans-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #03202F; /* Texans Navy Blue for player's name */
+}
+
+/* Stats Heading */
+.texans-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #03202F; /* Texans Navy Blue for heading */
+}
+
+/* Player Info */
+.texans-container .position,
+.texans-container .jersey-number,
+.texans-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.texans-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.texans-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.texans-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #002C5F; /* Colts Navy Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Indianapolis Colts Styles */
+.colts-container {
+    background-color: #FFD200; /* Colts Gold */
+    padding: 20px;
+}
+
+.colts-container .player-card {
+    background-color: #FFFFFF; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.colts-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #002C5F; /* Colts Navy Blue for player's name */
+}
+
+/* Stats Heading */
+.colts-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #002C5F; /* Colts Navy Blue for heading */
+}
+
+/* Player Info */
+.colts-container .position,
+.colts-container .jersey-number,
+.colts-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.colts-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.colts-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.colts-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #006778; /* Jaguars Teal background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Jacksonville Jaguars Styles */
+.jaguars-container {
+    background-color: #F7B731; /* Jaguars Gold */
+    padding: 20px;
+}
+
+.jaguars-container .player-card {
+    background-color: #FFFFFF; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.jaguars-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #006778; /* Jaguars Teal for player's name */
+}
+
+/* Stats Heading */
+.jaguars-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #006778; /* Jaguars Teal for heading */
+}
+
+/* Player Info */
+.jaguars-container .position,
+.jaguars-container .jersey-number,
+.jaguars-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.jaguars-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.jaguars-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.jaguars-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4B92DB; /* Titans Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Tennessee Titans Styles */
+.titans-container {
+    background-color: #003B5C; /* Titans Navy Blue */
+    padding: 20px;
+}
+
+.titans-container .player-card {
+    background-color: #FFFFFF; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.titans-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #003B5C; /* Titans Navy Blue for player's name */
+}
+
+/* Stats Heading */
+.titans-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #003B5C; /* Titans Navy Blue for heading */
+}
+
+/* Player Info */
+.titans-container .position,
+.titans-container .jersey-number,
+.titans-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.titans-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.titans-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.titans-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #003e6e; /* Broncos Navy Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Denver Broncos Styles */
+.broncos-container {
+    background-color: #f26522; /* Broncos Orange */
+    padding: 20px;
+}
+
+.broncos-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.broncos-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #003e6e; /* Broncos Navy Blue for player's name */
+}
+
+/* Stats Heading */
+.broncos-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #003e6e; /* Broncos Navy Blue for heading */
+}
+
+/* Player Info */
+.broncos-container .position,
+.broncos-container .jersey-number,
+.broncos-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.broncos-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.broncos-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.broncos-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e31837; /* Chiefs Red background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Kansas City Chiefs Styles */
+.chiefs-container {
+    background-color: #ffb81c; /* Chiefs Gold */
+    padding: 20px;
+}
+
+.chiefs-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.chiefs-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #e31837; /* Chiefs Red for player's name */
+}
+
+/* Stats Heading */
+.chiefs-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #e31837; /* Chiefs Red for heading */
+}
+
+/* Player Info */
+.chiefs-container .position,
+.chiefs-container .jersey-number,
+.chiefs-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.chiefs-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.chiefs-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.chiefs-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Raiders Black background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Las Vegas Raiders Styles */
+.raiders-container {
+    background-color: #5a5a5a; /* Raiders Silver */
+    padding: 20px;
+}
+
+.raiders-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.raiders-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #000000; /* Raiders Black for player's name */
+}
+
+/* Stats Heading */
+.raiders-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000000; /* Raiders Black for heading */
+}
+
+/* Player Info */
+.raiders-container .position,
+.raiders-container .jersey-number,
+.raiders-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.raiders-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.raiders-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.raiders-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d3d68; /* Chargers Navy Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Los Angeles Chargers Styles */
+.chargers-container {
+    background-color: #f6a800; /* Chargers Gold */
+    padding: 20px;
+}
+
+.chargers-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.chargers-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #1d3d68; /* Chargers Navy Blue for player's name */
+}
+
+/* Stats Heading */
+.chargers-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #1d3d68; /* Chargers Navy Blue for heading */
+}
+
+/* Player Info */
+.chargers-container .position,
+.chargers-container .jersey-number,
+.chargers-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.chargers-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.chargers-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.chargers-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #003b5c; /* Cowboys Navy Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Dallas Cowboys Styles */
+.cowboys-container {
+    background-color: #b0b7bc; /* Cowboys Silver */
+    padding: 20px;
+}
+
+.cowboys-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.cowboys-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #003b5c; /* Cowboys Navy Blue for player's name */
+}
+
+/* Stats Heading */
+.cowboys-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #003b5c; /* Cowboys Navy Blue for heading */
+}
+
+/* Player Info */
+.cowboys-container .position,
+.cowboys-container .jersey-number,
+.cowboys-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.cowboys-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cowboys-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.cowboys-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b2265; /* Giants Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* New York Giants Styles */
+.giants-container {
+    background-color: #d4454e; /* Giants Red */
+    padding: 20px;
+}
+
+.giants-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.giants-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0b2265; /* Giants Blue for player's name */
+}
+
+/* Stats Heading */
+.giants-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0b2265; /* Giants Blue for heading */
+}
+
+/* Player Info */
+.giants-container .position,
+.giants-container .jersey-number,
+.giants-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.giants-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.giants-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.giants-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004c54; /* Eagles Midnight Green background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Philadelphia Eagles Styles */
+.eagles-container {
+    background-color: #a5acaf; /* Eagles Silver */
+    padding: 20px;
+}
+
+.eagles-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.eagles-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #004c54; /* Eagles Midnight Green for player's name */
+}
+
+/* Stats Heading */
+.eagles-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #004c54; /* Eagles Midnight Green for heading */
+}
+
+/* Player Info */
+.eagles-container .position,
+.eagles-container .jersey-number,
+.eagles-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.eagles-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.eagles-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.eagles-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5a2a3a; /* Commanders Burgundy background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Washington Commanders Styles */
+.commanders-container {
+    background-color: #f4a300; /* Commanders Gold */
+    padding: 20px;
+}
+
+.commanders-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.commanders-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #5a2a3a; /* Commanders Burgundy for player's name */
+}
+
+/* Stats Heading */
+.commanders-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #5a2a3a; /* Commanders Burgundy for heading */
+}
+
+/* Player Info */
+.commanders-container .position,
+.commanders-container .jersey-number,
+.commanders-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.commanders-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.commanders-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.commanders-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b162a; /* Bears Navy Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Chicago Bears Styles */
+.bears-container {
+    background-color: #f57c00; /* Bears Orange */
+    padding: 20px;
+}
+
+.bears-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.bears-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0b162a; /* Bears Navy Blue for player's name */
+}
+
+/* Stats Heading */
+.bears-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0b162a; /* Bears Navy Blue for heading */
+}
+
+/* Player Info */
+.bears-container .position,
+.bears-container .jersey-number,
+.bears-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.bears-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bears-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.bears-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0076b6; /* Lions Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Detroit Lions Styles */
+.lions-container {
+    background-color: #f4a300; /* Lions Gold */
+    padding: 20px;
+}
+
+.lions-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.lions-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0076b6; /* Lions Blue for player's name */
+}
+
+/* Stats Heading */
+.lions-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0076b6; /* Lions Blue for heading */
+}
+
+/* Player Info */
+.lions-container .position,
+.lions-container .jersey-number,
+.lions-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.lions-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lions-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.lions-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #203731; /* Packers Green background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Green Bay Packers Styles */
+.packers-container {
+    background-color: #ffb81c; /* Packers Gold */
+    padding: 20px;
+}
+
+.packers-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.packers-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #203731; /* Packers Green for player's name */
+}
+
+/* Stats Heading */
+.packers-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #203731; /* Packers Green for heading */
+}
+
+/* Player Info */
+.packers-container .position,
+.packers-container .jersey-number,
+.packers-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.packers-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.packers-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.packers-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4f92b8; /* Vikings Purple background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Minnesota Vikings Styles */
+.vikings-container {
+    background-color: #ffc62f; /* Vikings Gold */
+    padding: 20px;
+}
+
+.vikings-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.vikings-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #4f92b8; /* Vikings Purple for player's name */
+}
+
+/* Stats Heading */
+.vikings-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4f92b8; /* Vikings Purple for heading */
+}
+
+/* Player Info */
+.vikings-container .position,
+.vikings-container .jersey-number,
+.vikings-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.vikings-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vikings-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.vikings-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a71930; /* Falcons Red background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Atlanta Falcons Styles */
+.falcons-container {
+    background-color: #000000; /* Falcons Black */
+    padding: 20px;
+}
+
+.falcons-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.falcons-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #a71930; /* Falcons Red for player's name */
+}
+
+/* Stats Heading */
+.falcons-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #a71930; /* Falcons Red for heading */
+}
+
+/* Player Info */
+.falcons-container .position,
+.falcons-container .jersey-number,
+.falcons-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.falcons-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.falcons-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.falcons-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0085ca; /* Panthers Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Carolina Panthers Styles */
+.panthers-container {
+    background-color: #101820; /* Panthers Black */
+    padding: 20px;
+}
+
+.panthers-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.panthers-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0085ca; /* Panthers Blue for player's name */
+}
+
+/* Stats Heading */
+.panthers-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0085ca; /* Panthers Blue for heading */
+}
+
+/* Player Info */
+.panthers-container .position,
+.panthers-container .jersey-number,
+.panthers-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.panthers-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.panthers-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.panthers-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3bc8d; /* Saints Gold background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* New Orleans Saints Styles */
+.saints-container {
+    background-color: #101820; /* Saints Black */
+    padding: 20px;
+}
+
+.saints-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.saints-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #d3bc8d; /* Saints Gold for player's name */
+}
+
+/* Stats Heading */
+.saints-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #d3bc8d; /* Saints Gold for heading */
+}
+
+/* Player Info */
+.saints-container .position,
+.saints-container .jersey-number,
+.saints-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.saints-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.saints-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.saints-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d50a0a; /* Buccaneers Red background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Tampa Bay Buccaneers Styles */
+.buccaneers-container {
+    background-color: #141414; /* Buccaneers Black */
+    padding: 20px;
+}
+
+.buccaneers-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.buccaneers-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #d50a0a; /* Buccaneers Red for player's name */
+}
+
+/* Stats Heading */
+.buccaneers-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #d50a0a; /* Buccaneers Red for heading */
+}
+
+/* Player Info */
+.buccaneers-container .position,
+.buccaneers-container .jersey-number,
+.buccaneers-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.buccaneers-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.buccaneers-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.buccaneers-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e63946; /* Cardinals Red background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Arizona Cardinals Styles */
+.cardinals-container {
+    background-color: #101820; /* Cardinals Black */
+    padding: 20px;
+}
+
+.cardinals-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.cardinals-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #e63946; /* Cardinals Red for player's name */
+}
+
+/* Stats Heading */
+.cardinals-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #e63946; /* Cardinals Red for heading */
+}
+
+/* Player Info */
+.cardinals-container .position,
+.cardinals-container .jersey-number,
+.cardinals-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.cardinals-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cardinals-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.cardinals-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #005a8f; /* Rams Blue background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Los Angeles Rams Styles */
+.rams-container {
+    background-color: #232f3e; /* Rams Dark Blue */
+    padding: 20px;
+}
+
+.rams-container .player-card {
+    background-color: #ffffff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.rams-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #005a8f; /* Rams Blue for player's name */
+}
+
+/* Stats Heading */
+.rams-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #005a8f; /* Rams Blue for heading */
+}
+
+/* Player Info */
+.rams-container .position,
+.rams-container .jersey-number,
+.rams-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.rams-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rams-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.rams-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5c5c5; /* Light background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* San Francisco 49ers Styles */
+.niners-container {
+    background-color: #ae0808; /* 49ers Red */
+    padding: 20px;
+}
+
+.niners-container .player-card {
+    background-color: #fff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.niners-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #ae0808; /* 49ers Red for player's name */
+}
+
+/* Stats Heading */
+.niners-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ae0808; /* 49ers Red for heading */
+}
+
+/* Player Info */
+.niners-container .position,
+.niners-container .jersey-number,
+.niners-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.niners-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.niners-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.niners-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6; /* Light background for all pages */
+    color: #fff; /* White text for contrast */
+}
+
+/* Seattle Seahawks Styles */
+.seahawks-container {
+    background-color: #002244; /* Seahawks Navy Blue */
+    padding: 20px;
+}
+
+.seahawks-container .player-card {
+    background-color: #fff; /* White background for player card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Player Name */
+.seahawks-container .player-details h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #002244; /* Seahawks Navy Blue for player's name */
+}
+
+/* Stats Heading */
+.seahawks-container .stats h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #002244; /* Seahawks Navy Blue for heading */
+}
+
+/* Player Info */
+.seahawks-container .position,
+.seahawks-container .jersey-number,
+.seahawks-container .age {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+}
+
+/* Stats List */
+.seahawks-container .stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.seahawks-container .stats li {
+    font-size: 1.1rem;
+    color: #555; /* Light grey text */
+    margin: 5px 0;
+}
+
+/* Player Photo */
+.seahawks-container .player-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
